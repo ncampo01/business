@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="We believe that no individual should have 
+    to go a day without a plate of food. By providing tangible resources such 
+    as monetary donations and/or food donations, we are feeding those in need.
+    We are attempting to ensure the vast majority of the LA neighborhood has 
+    some form of alimentation.">
+    <title>Contact | Nessy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        .navbar { background-color: rgb(44, 129, 185); }
+        .navbar a { color: white; }
+        .navbar a::after { background-color: white; }
+        #navbar__logo { background-color: white; }
+        .navbar__menu.active { background-color: rgb(44, 129, 185); }
+        #mobile-menu .bar { background-color: white; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="navbar__container">
+                <a href="index.html" id="navbar__logo">NESSY FOUNDATION</a>
+                <div class="navbar__toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbar__menu">
+                    <li class="navbar__item">
+                        <a href="index.html" class="navbar__links">Home</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="contact.html" class="navbar__links">Contact</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#" class="navbar__links">Donate</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="about.html" class="navbar__links">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <hr>
+
+    <div class="content">
+        <section class="contact">
+            <!-- <form action="#">
+                <h1>CONTACT US</h1>
+                <div class="line" >
+                    <hr>
+                    <style>
+                        .line { 
+                            border: none; 
+                            background-color: blue; 
+                            max-width: 50%; 
+                            height: 1px;
+                            margin-bottom: 10px;
+                        }
+                    </style>
+                </div>
+                <label for="help">What can we help you with?</label>
+                <select name="help" id="help">
+                    <option value="">General Help</option>
+                    <option value="">What happens after I donate?</option>
+                    <option value="">Homeless Servce Emergency Team</option>
+                    <option value="">Technical/Web Support</option>
+                </select>
+                <input type="submit" value="SEND">
+            </form> -->
+            <div class="form--container">
+                <h1>CONTACT</h1>
+                <p><b>GENERAL INQUIRIES</b></p>
+                <p>Email: inquiryteam@nessy.org</p>
+                <p>Phone: (323)598-7887</p>
+                <h2>SEND US A MESSAGE</h2>
+                <form>
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name" required>
+            
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required>
+            
+                  <label for="message">Message:</label>
+                  <textarea id="message" name="message" rows="5" required></textarea>
+            
+                  <input type="submit" value="Send">
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <hr/>
+    <footer class="footer__container">
+        <div class="footer__links">
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <p><strong>About Us</strong></p>
+                    <a href="about.html">How it Works</a>
+                    <a href="error.html">Quality</a>
+                </div>
+                <div class="footer__link--items">
+                    <p><strong>Support</strong></p>
+                    <a href="contact.html">Contact</a>
+                    <a href="error.html">Policies</a>
+                </div>
+                <div class="footer__link--items">
+                    <p><strong>Media</strong></p>
+                    <a href="error.html">Media Content</a>
+                    <a href="error.html">Feedback</a>
+                </div>
+                <div class="footer__link--items">
+                    <form action="#" class="news--form">
+                        <label for="email" class="email--label">Subscribe to our Newsletter</label>
+                        <input type="text" placeholder="Email Address" 
+                        class="email" id="email" autocomplete="email">
+                        <input type="submit" class="submit--email" value="SIGN UP">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="social">
+            <div class="social--wrap">
+                <div class="footer__logo">
+                    <a href="index.html" id="footer__logo">Nessy Foundation</a>
+                </div>
+                <p class="website__rights">© 2023 Nessy Foundation All Rights Reserved.</p>
+                <p>In the heart of Los Angeles</p>
+            </div>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="We believe that no individual should have 
+    to go a day without a plate of food. By providing tangible resources such 
+    as monetary donations and/or food donations, we are feeding those in need.
+    We are attempting to ensure the vast majority of the LA neighborhood has 
+    some form of alimentation.">
+    <title>Nazario | Assignment 2</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
+     <!-- Need this script to allow the scroll color change -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="navbar__container">
+                <a href="index.html" id="navbar__logo">NESSY FOUNDATION</a>
+                <div class="navbar__toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbar__menu">
+                    <li class="navbar__item">
+                        <a href="index.html" class="navbar__links">Home</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="contact.html" class="navbar__links">Contact</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#" class="navbar__links">Donate</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="about.html" class="navbar__links">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <hr>
+
+    <div class="content">
+        <div class="inspo--image">
+            <h1>Get Involved</h1>
+            <p>
+                "Healthy citizens are the greatest asset any country can have."<br/>
+                <em>- Sir Winston Churchill</em>
+            </p>
+            <a href="#" id="donate">Donate Now</a>
+        </div>
+
+        <div class="agenda__container">
+            <div class="agenda__content">
+                <h2>Start with a Sandwich</h2>
+                <p>
+                   Let's join hands to make a difference in our community by 
+                    generously supporting those in need. <br/><br/>
+                    A simple act, like providing a nourishing sandwich, can 
+                    bring warmth and sustenance to the homeless, reminding us 
+                    that kindness is a powerful force for change. Together, 
+                    let's amplify our efforts to feed the needy, for in each 
+                    meal shared, we build a bridge of compassion that 
+                    transforms lives.
+                </p>
+            </div>
+            <div class="agenda__img--container">
+                <!-- <img src="images/sandwich.jpg" alt="image of a sandwich" id="sub__img"> -->
+                <img src="sandwich.jpg" alt="image of a sandwich" id="sub__img">
+            </div>
+        </div>
+
+        <div class="end--image">
+            <img src="widedowntown.jpg" alt="downtown LA city" id="dla--image">
+            <h3>The streets of Downtown LA</h3>
+            <p></p>
+        </div>
+
+        <div class="twocolumn--colors">
+            <div class="leftcolumn--side">
+                <h3>Join the Team</h3>
+                <h4><b>Push for activism</b></h4>
+                <p>
+                    Be a part of positive change by volunteering with our 
+                    nonprofit organization focused on feeding the homeless. 
+                    Your time and effort can help bring smiles and nourishment 
+                    to individuals experiencing homelessness, making a lasting 
+                    impact on their lives.
+                    <br/>
+                </p>
+                <p>
+                    Join us in making a difference by supporting our nonprofit 
+                    organization dedicated to feeding the homeless. Together, 
+                    we can provide nourishment and hope to those in need, 
+                    creating a stronger and more compassionate community.
+                </p>
+                <br/>
+                <p>
+                    Join us to help put pressure on our leaders to spend our 
+                    money on the right priorities, starting with a meal a day 
+                    for all.
+                </p>
+            </div>
+            <div class="rightcolumn--side">
+                <div class="form--container">
+                    <h3>Join our journey to end food hunger</h3>
+                    <form action="#" class="signup" id="signup" method="post">
+                        <label for="firstname">First Name *</label>
+                        <input type="text" name="firstname" placeholder="First" id="First-name" required>
+                        <label for="lastname">Last Name *</label>
+                        <input type="text" name="lastname" placeholder="Last" id="Last-name" required>
+                        <label for="email">Email *</label>
+                        <input type="text" name="email" placeholder="email" id="email" required>
+                        <input type="submit" name="submit" id="submit" value="SUBMIT">
+                    </form>
+                </div>  
+            </div>
+        </div>
+    </div>
+    
+
+    <hr/>
+    <footer class="footer__container">
+        <div class="footer__links">
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <p><strong>About Us</strong></p>
+                    <a href="about.html">How it Works</a>
+                    <a href="error.html">Quality</a>
+                </div>
+                <div class="footer__link--items">
+                    <p><strong>Support</strong></p>
+                    <a href="contact.html">Contact</a>
+                    <a href="error.html">Policies</a>
+                </div>
+                <div class="footer__link--items">
+                    <p><strong>Media</strong></p>
+                    <a href="error.html">Media Content</a>
+                    <a href="error.html">Feedback</a>
+                </div>
+                <div class="footer__link--items">
+                    <form action="#" class="news--form">
+                        <label for="email" class="email--label"><b>Subscribe to our Newsletter</b></label>
+                        <input type="text" placeholder="Email Address" 
+                        class="email" id="email" autocomplete="email">
+                        <input type="submit" class="submit--email" value="SIGN UP">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="social">
+            <div class="social--wrap">
+                <div class="footer__logo">
+                    <a href="index.html" id="footer__logo">Nessy Foundation</a>
+                </div>
+                <p class="website__rights">© 2023 Nessy Foundation All Rights Reserved.</p>
+                <p>In the heart of Los Angeles</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<script src="app.js"></script>
+<script src="scroll.js"></script>
+</html>

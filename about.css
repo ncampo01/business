@@ -1,0 +1,118 @@
+/*
+
+    CSS for about.html content
+
+*/
+
+.content {
+    padding-top: 100px; 
+}
+
+.mission--container {
+    margin-left: 6rem;
+    margin-right: 2rem;
+    text-align: left;
+
+}
+
+.list li {
+    margin: 10px 40px;
+    padding: 8px 10px;
+}
+
+.message {
+    margin: 25px;
+    padding: 100px 10;
+}
+
+.message p {
+    margin-right: 25px;
+    margin-top: 10px;
+}
+
+.list {
+    margin: 25px;
+    padding: 100px 10;
+}
+
+.overview {
+    margin: 25px;
+    padding: 100px 10;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1700px;
+}
+
+.overview p {
+    margin-right: 25px;
+    margin-top: 10px;
+}
+
+.overview p {
+    margin: 5px;
+}
+
+.overview h2 {
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: blue;
+}
+
+.motto{
+    color: green;
+}
+
+#about {
+    height: 35%;
+    width: 35%;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 1260px){
+    .overview {
+        width: 100%;
+        padding: 30px auto;
+    }
+}
+@media screen and (max-width:960px) {
+    .mission--container {
+        margin: 3rem 3rem;
+    }
+    .overview p {
+        margin-right: 15px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .overview {
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .leftside {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .leftside h2 {
+        font-size: 1.8rem;
+    }
+
+    .rightside {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #about {
+        height: 50%;
+        width: 50%;
+    }
+}

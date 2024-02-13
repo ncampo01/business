@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="We believe that no individual should have 
+    to go a day without a plate of food. By providing tangible resources such 
+    as monetary donations and/or food donations, we are feeding those in need.
+    We are attempting to ensure the vast majority of the LA neighborhood has 
+    some form of alimentation.">
+    <title>ERROR</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .navbar { background-color: rgb(44, 129, 185); }
+        #navbar__logo { background-color: white; }
+        .navbar a { color: white; }
+        .navbar a::after { background-color: white; }
+        .navbar__menu.active { background-color: rgb(44, 129, 185); }
+        .navbar__toggle .bar { background: white; }
+        .error { padding-top: 100px; text-align: center; margin-top: 12.5%; height: 60vh; }
+        .error h1 { font-size: 2rem; }
+        .error p {
+            padding-bottom: 25px;
+            max-width: auto;
+            text-align: center;
+            justify-content: center;
+        }
+        #directory--home { background-color: transparent; }
+        #directory--home a {
+            padding: 50px;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            color: blue;
+            font-size: 0.85rem;
+        }
+        #directory--home a:hover { text-decoration: underline; }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="navbar__container">
+                <a href="index.html" id="navbar__logo">NESSY FOUNDATION</a>
+                <div class="navbar__toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbar__menu">
+                    <li class="navbar__item">
+                        <a href="index.html" class="navbar__links">Home</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="contact.html" class="navbar__links">Contact</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#" class="navbar__links">Donate</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="about.html" class="navbar__links">About</a>
+                    </li>
+                </ul>
+            </div>
+    </header>
+
+    <hr>
+
+    <div class="content">
+        <section class="error">
+            <h1>ERROR</h1>
+            <p>
+                The page you were looking for has either been <u>deleted</u>
+                or is <u>inaccessible</u>
+            </p>
+            <button id="directory--home"><a href="index.html">Home</a></button>
+        </section>
+    </div>
+
+    <hr/>
+    
+    <footer class="footer__container">
+        <div class="footer__links">
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <p><strong>About Us</strong></p>
+                    <a href="about.html">How it Works</a>
+                    <a href="error.html">Quality</a>
+                </div>
+                <div class="footer__link--items">
+                    <p><strong>Support</strong></p>
+                    <a href="contact.html">Contact</a>
+                    <a href="error.html">Policies</a>
+                </div>
+                <div class="footer__link--items">
+                    <p><strong>Media</strong></p>
+                    <a href="error.html">Media Content</a>
+                    <a href="error.html">Feedback</a>
+                </div>
+                <div class="footer__link--items">
+                    <form action="#" class="news--form">
+                        <label for="email" class="email--label">Subscribe to our Newsletter</label>
+                        <input type="text" placeholder="Email Address" 
+                        class="email" id="email" autocomplete="email">
+                        <input type="submit" class="submit--email" value="SIGN UP">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="social">
+            <div class="social--wrap">
+                <div class="footer__logo">
+                    <a href="index.html" id="footer__logo">Nessy Foundation</a>
+                </div>
+                <p class="website__rights">© 2023 Nessy Foundation All Rights Reserved.</p>
+                <p>In the heart of Los Angeles</p>
+            </div>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>

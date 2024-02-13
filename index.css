@@ -1,0 +1,459 @@
+/*
+
+    CSS for index.html content 
+    
+*/
+
+/* inspo--image styling */
+
+.inspo--image {
+    background-image: url('bckground_comp.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    text-align: left;
+    color: white;
+    box-shadow: 0 0 1 rgba(0, 0, 0, .5);
+}
+
+.inspo--image h1 { 
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    margin-left: 12.5%;
+}
+
+.inspo--image p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    margin-left: 12.5%;
+}
+
+#donate {
+    background-color: white;
+    color: black;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.4rem;
+    transition: background-color 0.3s ease;
+    max-width: 160px;
+    margin-left: 12.5%;
+}
+
+#donate:hover {
+    background-color: grey;
+    color: white;
+}
+
+
+@media screen and (max-width: 960px){
+    .inspo--image {
+        background-position: right;
+    }
+
+    .inspo--image p {
+        font-size: 1.25rem;
+        margin-right: 5%;
+    }
+
+    #donate {
+        padding: .5rem 1rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .inspo--image {
+        align-items: center;
+    }
+
+    .inspo--image h1 {
+        font-size: 2rem;
+    }
+}
+
+/* agenda__container styling */
+
+.agenda__container {
+    /* background-color: #FDD693; */
+    background-color: #EBF2F8;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    z-index: 1;
+    width: 100%;
+    max-width: 1700px;
+    padding: 0 15px;
+}
+
+.agenda__content h2 {
+    padding: 10px 30px;
+    margin-left: 25px;
+    font-size: 2.50rem;
+    color: rgb(44, 129, 185);
+}
+
+.agenda__content p {
+    margin-top: 1rem;
+    margin-left: 25px;
+    padding: 10px 30px;
+    font-size: 1.15rem;
+    font-weight: 300;
+    color: rgb(44, 129, 185);
+}
+
+.agenda__img--container {
+    text-align: center;
+    margin: 30px 0;
+}
+
+#sub__img {
+    height: 70%;
+    width: 70%;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 1260px){
+    .agenda__container {
+        width: 100%;
+        padding: 30px auto;
+    }
+
+    .agenda__content {
+        margin-bottom: 3rem;
+    }
+
+    .twocolumn--colors {
+        margin-bottom: 3rem;
+    }
+
+    .agenda__content h2 {
+        font-size: 2.55rem;
+    }
+
+    .agenda__content p{
+        font-size: 1.25rem;
+        width: auto;
+    }
+
+}
+
+@media screen and (max-width:1100px) {
+    .agenda__content h2 {
+        font-size: 2.25rem;
+    }
+
+    .agenda__content p{
+        font-size: 1.12rem;
+        width: auto;
+    }
+}
+
+@media screen and (max-width:960px) {
+    .agenda__content h2 {
+        margin-top: 1.75rem;
+        font-size: 2rem;
+    }
+
+    .twocolumn--colors {
+        margin-top: 1.75rem;
+    }
+
+    .agenda__content p {
+        width: auto;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .agenda__container {
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .agenda__content {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .twocolumn--colors {
+        margin-bottom: 1rem;
+    }
+
+    .agenda__content h2 {
+        font-size: 1.8rem;
+    }
+    #sub__img {
+        height: 70%;
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .agenda__content {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .agenda__content h2 {
+        font-size: 1rem;
+    }
+
+    .agenda__content p {
+        margin-top: 2rem;
+        font-size: 1.5rem;
+    }
+}
+
+/* two column color styling */
+.twocolumn--colors {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1700px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.leftcolumn--side {
+    background-color: rgb(44, 129, 185);
+    padding: 120px 15px;
+    margin: 10px auto;
+    width: 100%;
+}
+
+.leftcolumn--side h3 {
+    padding: 10px 30px;
+    margin-left: 25px;
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    color: whitesmoke;
+}
+
+.leftcolumn--side h4 {
+    margin-top: .5rem;  
+    margin-left: 25px;
+    padding: 5px 30px;
+    font-size: 1.15rem;
+    font-weight: 300;
+    /* color: rgb(44, 129, 185); */
+    color: whitesmoke;
+}
+
+.leftcolumn--side p {
+    margin-top: .5rem;
+    margin-left: 25px;
+    padding: 5px 30px;
+    font-size: 1.15rem;
+    font-weight: 300;
+    /* color: rgb(44, 129, 185); */
+    color: whitesmoke;
+}
+
+.rightcolumn--side {
+    background-color: #EBF2F8;
+    padding: 100px 15px;
+    margin: 10px auto;
+    width: 100%;
+    justify-content: center;
+}
+
+.end--image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-shadow: 0 0 1 rgba(0, 0, 0, .5);
+}
+
+#dla--image {
+    width:100%;
+}
+
+.end--image h3 {
+    position: absolute;
+    text-align:center;
+    justify-content: center;
+    display: flex;
+    margin-left: 25px;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+
+@media screen and (max-width: 1260px){
+    .twocolumn--colors {
+        width: 100%;
+        padding: 30px auto;
+    }
+
+    .leftcolumn--side {
+        margin-bottom: 3rem;
+    }
+
+    .leftcolumn--side h3 {
+        font-size: 2.55rem;
+    }
+
+    .leftcolumn--side h4 {
+        font-size: 2.2rem;
+    }
+
+    .leftcolumn--side p{
+        font-size: 1.25rem;
+        width: auto;
+    }
+
+}
+
+@media screen and (max-width:1100px) {
+    .leftcolumn--side h3 {
+        font-size: 2.25rem;
+    }
+
+    .leftcolumn--side h4 {
+        font-size: 2rem;
+    }
+    
+    .leftcolumn--side p {
+        font-size: 1.12rem;
+        width: auto;
+    }
+}
+
+@media screen and (max-width:960px) {
+    .leftcolumn--side h3 {
+        margin-top: 1.75rem;
+        font-size: 2rem;
+    }
+
+    .rightcolumn--side h3 {
+        margin-top: 1.75rem;
+    }
+
+    .leftcolumn--side h4 {
+        margin-top: 1.5rem;
+        font-size: 2rem;
+    }
+
+    .leftcolumn--side p {
+        width: auto;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .twocolumn--colors {
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .leftcolumn--side {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .leftcolumn--side h3 {
+        font-size: 1.8rem;
+    }
+
+    .leftcolumn--side h4 {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .leftcolumn--side {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .leftcolumn--side h3 {
+        font-size: 1rem;
+    }
+
+    .leftcolumn--side h4 {
+        font-size: .8rem;
+    }
+
+    .leftcolumn--side p {
+        margin-top: 2rem;
+        font-size: 1.5rem;
+    }
+}
+
+.form--container {
+    width: 500px;
+    background-color: #fff;
+    padding: 80px 30px;
+    margin-left: 25px;
+    margin-top: 2rem;
+    border: 1pz solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    align-items: center;
+}
+
+.form--container h3 {
+    text-align: left;
+    margin-bottom: 32px;
+    font-size: 2rem;
+}
+
+.form--container label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.form--container [type="text"],input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
+
+.form--container [type="submit"] {
+    width: 100%;
+    padding: 8px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form--container [type="submit"]:hover {
+    background-color: #45a049;
+}
+
+@media screen and (max-width:1100px) {
+    .form--container {
+        width: 450px;
+    }
+}
+
+@media screen and (max-width:960px) {
+    .form--container {
+        width: 400px;
+    }
+}

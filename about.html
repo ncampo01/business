@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="We believe that no individual should have 
+    to go a day without a plate of food. By providing tangible resources such 
+    as monetary donations and/or food donations, we are feeding those in need.
+    We are attempting to ensure the vast majority of the LA neighborhood has 
+    some form of alimentation.">
+    <title>About | Nessy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        .navbar { background-color: rgb(44, 129, 185); }
+        .navbar a { color: white; }
+        .navbar a::after { background-color: white; }
+        #navbar__logo { background-color: white; }
+        .navbar__menu.active { background-color: rgb(44, 129, 185); }
+        #mobile-menu .bar { background-color: white; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="navbar__container">
+                <a href="index.html" id="navbar__logo">NESSY FOUNDATION</a>
+                <div class="navbar__toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbar__menu">
+                    <li class="navbar__item">
+                        <a href="index.html" class="navbar__links">Home</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="contact.html" class="navbar__links">Contact</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#" class="navbar__links">Donate</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="about.html" class="navbar__links">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <hr>
+
+    <div class="content">
+        <div class="mission--container">
+            <div class="message">
+                <h1>OUR MISSION</h1>
+                <p>
+                    "To foster a united and strategic vision that 
+                    collaboratively develops solutions for the homelessness 
+                    crisis, anchored in values of compassion, equity, and 
+                    inclusion."
+                </p>
+            </div>
+            <div class="list">
+                <h2>OUR VALUES</h2>
+                <ul>
+                    <li><div class="motto"><em>ACCOUNTABILITY</em></div>
+                        <ul>
+                            <li>We commit to evaluating results, continuous 
+                                improvement, and transparency for the system.
+                            </li>
+                            </ul>
+                    </li>
+                    <li><div class="motto"><em>COLLABORATION</em></div>
+                        <ul>
+                            <li>We uphold a commitment to ethical conduct, 
+                                embodying honesty, dignity, and respect in all our 
+                                actions, setting a higher standard for ourselves</li>
+                        </ul>
+                    </li>
+                    <li><div class="motto"><em>COMPASSION</em></div>
+                        <ul>
+                            <li>We believe all persons deserve housing, 
+                                services, and safety.
+                            </li>
+                            </ul>
+                    </li>
+                    <li><div class="motto"><em>EQUITY</em></div>
+                        <ul>
+                            <li>We are committed to racial, social, and 
+                                economic justice.
+                            </li>
+                            </ul>
+                    </li>
+                    <li><div class="motto"><em>INTEGRITY</em></div>
+                        <ul>
+                        <li>We uphold a commitment to ethical conduct, 
+                            embodying honesty, dignity, and respect in all our 
+                            actions, setting a higher standard for ourselves</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="overview">
+                <div class="leftside">
+                    <h2>OVERVIEW OF NESSY</h2>
+                    <p>
+                        Nessy Foundation is a compassionate nonprofit organization 
+                        based in Los Angeles, dedicated to spearheading the fight 
+                        against homelessness and poverty. Founded on the principles 
+                        of compassion and integrity, Nessy Foundation envisions a 
+                        world where every individual has a place to call home and 
+                        access to the resources needed for a dignified life.
+                    </p>
+                </div>
+                <div class="righside">
+                    <img src="logo.jpeg" alt="logo" id="about">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr/>
+    <footer class="footer__container">
+        <div class="footer__links">
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <p><strong>About Us</strong></p>
+                    <a href="about.html">How it Works</a>
+                    <a href="error.html">Quality</a>
+                </div>
+                <div class="footer__link--items">
+                    <p><strong>Support</strong></p>
+                    <a href="contact.html">Contact</a>
+                    <a href="error.html">Policies</a>
+                </div>
+                <div class="footer__link--items">
+                    <p><strong>Media</strong></p>
+                    <a href="error.html">Media Content</a>
+                    <a href="error.html">Feedback</a>
+                </div>
+                <div class="footer__link--items">
+                    <form action="#" class="news--form">
+                        <label for="email" class="email--label">Subscribe to our Newsletter</label>
+                        <input type="text" placeholder="Email Address" 
+                        class="email" id="email" autocomplete="email">
+                        <input type="submit" class="submit--email" value="SIGN UP">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="social">
+            <div class="social--wrap">
+                <div class="footer__logo">
+                    <a href="index.html" id="footer__logo">Nessy Foundation</a>
+                </div>
+                <p class="website__rights">© 2023 Nessy Foundation All Rights Reserved.</p>
+                <p>In the heart of Los Angeles</p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="app.js"></script>
+</html>
